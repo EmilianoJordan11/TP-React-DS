@@ -1,33 +1,20 @@
 # Formulario de Productos - Desarrollo de Software (UTN)
 
-¡Bienvenido al repositorio de un trabajo práctico de la materia Desarrollo de Software en la UTN! Este proyecto está enfocado en construir una aplicación de React con TypeScript para gestionar productos mediante un formulario.
+Este es un proyecto de práctica básica en React con TypeScript, enfocado en el uso de componentes, hooks y tipado estático para asegurar un desarrollo más robusto.
 
-## 📌 Objetivo
+Estructura del Proyecto src: Contiene el código fuente del proyecto. src/components: Carpeta donde se encuentran los componentes de React. src/hooks: Carpeta con los hooks personalizados, como useForm.
 
-El objetivo de este proyecto es aprender y aplicar los fundamentos de React y TypeScript para crear un formulario interactivo que permita agregar productos, aplicando buenas prácticas de desarrollo de interfaces y gestión de estados en una aplicación de front-end.
+Funcionalidades Formulario de Productos: Puedes cargar productos a través de un formulario que usa useState para renderizarlos automáticamente a medida que se agregan. TypeScript: Uso de interfaces para tipar los productos, lo que ayuda a minimizar errores detectándolos en tiempo de compilación.
 
-## 📂 Descripción del Proyecto
-
-### - Formulario Interactivo
-Implementación de un formulario que permite a los usuarios agregar productos con nombre, imagen y precio.
-
-### - Renderizado Dinámico
-Los productos agregados se muestran de manera dinámica en la interfaz.
-
-### - Uso de TypeScript
-Mejora la robustez del código mediante el uso de tipos y de componentes tipados.
-
-### - Componentes Reutilizables
-Los componentes están diseñados para ser reutilizables y de fácil mantenimiento.
-
-## ✅ Funcionamiento
+## ✏️ Instrucciones de Ejecución
 
 1) Descargar / Clonar el proyecto
-2) Descomprimir el archivo .zip (OPCIONAL)
-3) Añadir dependecias
-4) Correr el programa con NPM RUN DEV
-5) Probar funcionamiento
+2) Instalar dependecias
+```bash
+npm install
+```
+3) Ejecutar el programa
+```bash
+npm run dev
+```
 
----
-
-¡Gracias por visitar este repositorio!
